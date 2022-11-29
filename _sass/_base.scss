@@ -19,6 +19,19 @@ strong {
   color: var(--global-text-color);
 }
 
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+article > div {
+  margin-bottom: 2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -27,6 +40,9 @@ table {
   td,
   th {
     font-size: 1rem;
+  }
+  th {
+    white-space: nowrap;
   }
 
   th {
@@ -360,7 +376,7 @@ ul.task-list input[type="checkbox"] {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
-
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: var(--global-hover-color);
   }
@@ -368,23 +384,25 @@ ul.task-list input[type="checkbox"] {
 
 // Social (bottom)
 
-.social {
-  text-align: center;
+%icon {
+  i::before {
+    color: var(--global-text-color);
+    transition: all 0.2s ease-in-out;
+  }
 
+  &:hover {
+    i::before {
+      color: var(--global-hover-color);
+    }
+  }
+}
+
+.social {
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.75rem;
 
     a {
-      i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
+      @extend %icon;
     }
   }
 
@@ -664,8 +682,6 @@ footer.sticky-bottom {
   }
 
   ol.bibliography {
-    list-style: none;
-    padding: 0;
     margin-top: 0;
 
     li {
@@ -699,6 +715,9 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        a {
+          @extend %icon;
+        }
       }
 
       .author {

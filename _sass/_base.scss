@@ -8,6 +8,19 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
 
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+article > div {
+  margin-bottom: 2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -15,6 +28,9 @@ hr {
 table {
   td, th {
     color: var(--global-text-color);
+  }
+  th {
+    white-space: nowrap;
   }
   td {
     font-size: 1rem;
@@ -243,6 +259,7 @@ blockquote {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
+  transition: all 0.2s ease-in-out;
   &:hover {
     color: var(--global-hover-color);
   }
@@ -250,20 +267,23 @@ blockquote {
 
 // Social (bottom)
 
+%icon {
+  i::before {
+    color: var(--global-text-color);
+    transition: all 0.2s ease-in-out;
+  }
+  &:hover {
+    i::before {
+      color: var(--global-hover-color);
+    }
+  }
+}
+
 .social {
-  text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.75rem;
     a {
-      i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
+      @extend %icon;
     }
   }
   .contact-note {
@@ -487,8 +507,6 @@ footer.sticky-bottom {
     text-align: right;
   }
   ol.bibliography {
-    list-style: none;
-    padding: 0;
     margin-top: 0;
 
     li {
@@ -520,6 +538,9 @@ footer.sticky-bottom {
       }
       .title {
         font-weight: bolder;
+        a {
+          @extend %icon;
+        }
       }
       .author {
         a {

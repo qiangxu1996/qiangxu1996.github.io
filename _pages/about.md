@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>
-    Ph.D. Candidate<br>
+    Ph.D. Student<br>
     School of Electrical and Computer Engineering<br>
     Purdue University
     </p>

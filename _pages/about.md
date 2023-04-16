@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>
-    Ph.D. Student<br>
+    Ph.D. Candidate<br>
     School of Electrical and Computer Engineering<br>
     Purdue University
     </p>

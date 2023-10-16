@@ -2,23 +2,35 @@
 ---
 
 @inproceedings{kong2023can,
-  author = {Ghoshal*, Moinak and Kong*, Jonny and Xu*, Qiang and Lu, Zixiao and Aggarwal, Shivang and Khan, Imran and Meng, Jiayi and Li, Yuanjie and Hu, Y. Charlie and Koutsonikolas, Dimitrios},
+  author = {Ghoshal*, Moinak and Kong*, Z. Jonny and Xu*, Qiang and Lu, Zixiao and Aggarwal, Shivang and Khan, Imran and Meng, Jiayi and Li, Yuanjie and Hu, Y. Charlie and Koutsonikolas, Dimitrios},
   title = {Can 5G mmWave Enable Edge-Assisted Real-Time Object Detection for Augmented Reality?},
   booktitle = {31st International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems},
   abbr = {MASCOTS 2023},
 }
 
-@inproceedings{kong2023accumo,
-  author = {Kong*, Jonny and Xu*, Qiang and Hu, Y. Charlie},
-  title = {AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality},
-  booktitle = {The 29th Annual International Conference on Mobile Computing and Networking},
-  abbr = {MobiCom 2023},
-  pdf = {mobicom23-final448.pdf},
-  code = {https://github.com/JonnyKong/AccuMO},
+@inproceedings{10.1145/3570361.3592531,
+author = {Kong*, Z. Jonny and Xu*, Qiang and Meng, Jiayi and Hu, Y. Charlie},
+title = {AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality},
+year = {2023},
+isbn = {9781450399906},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3570361.3592531},
+doi = {10.1145/3570361.3592531},
+abstract = {Immersive applications such as Augmented Reality (AR) and Mixed Reality (MR) often need to perform multiple latency-critical tasks on every frame captured by the camera, which all require results to be available within the current frame interval. While such tasks are increasingly supported by Deep Neural Networks (DNNs) offloaded to edge servers due to their high accuracy but heavy computation, prior work has largely focused on offloading one task at a time. Compared to offloading a single task, where more frequent offloading directly translates into higher task accuracy, offloading of multiple tasks competes for shared edge server resources, and hence faces the additional challenge of balancing the offloading frequencies of different tasks to maximize the overall accuracy and hence app QoE.In this paper, we formulate this accuracy-centric multitask offloading problem, and present a framework that dynamically schedules the offloading of multiple DNN tasks from a mobile device to an edge server while optimizing the overall accuracy across tasks. Our design employs two novel ideas: (1) task-specific lightweight models that predict offloading accuracy drop as a function of offloading frequency and frame content, and (2) a general two-level control feedback loop that concurrently balances offloading among tasks and adapts between offloading and using local algorithms for each task. Evaluation results show that our framework improves the overall accuracy significantly in jointly offloading two core tasks in AR --- depth estimation and odometry --- by on average 7.6\%--14.3\% over the best baselines under different accuracy weight ratios.},
+booktitle = {The 29th Annual International Conference on Mobile Computing and Networking},
+articleno = {30},
+numpages = {16},
+keywords = {depth estimation, edge computing, DNN offloading, mobile augmented reality, odometry, multitask offloading},
+location = {Madrid, Spain},
+series = {ACM MobiCom '23},
+abbr = {MobiCom 2023},
+pdf = {mobicom23-final448.pdf},
+code = {https://github.com/Z. JonnyKong/AccuMO},
 }
 
 @inproceedings{10.1145/3538394.3546042,
-author = {Ghoshal*, Moinak and Kong*, Jonny and Xu*, Qiang and Lu, Zixiao and Aggarwal, Shivang and Khan, Imran and Li, Yuanjie and Hu, Y. Charlie and Koutsonikolas, Dimitrios},
+author = {Ghoshal*, Moinak and Kong*, Z. Jonny and Xu*, Qiang and Lu, Zixiao and Aggarwal, Shivang and Khan, Imran and Li, Yuanjie and Hu, Y. Charlie and Koutsonikolas, Dimitrios},
 title = {An In-Depth Study of Uplink Performance of 5G MmWave Networks},
 year = {2022},
 isbn = {9781450393935},
@@ -40,7 +52,7 @@ code = {https://github.com/NUWiNS/sigcomm-5gmemu-5g-mmWave-uplink-data},
 @InProceedings{10.1007/978-3-030-98785-5_8,
 author="Ghoshal, Moinak
 and Dash, Pranab
-and Kong, Jonny
+and Kong, Z. Jonny
 and Xu, Qiang
 and Hu, Y. Charlie
 and Koutsonikolas, Dimitrios
@@ -76,7 +88,7 @@ code="https://github.com/NUWiNS/pam2022-5G-mmwave-multi-user-ar-data",
 }
 
 @inproceedings{10.1145/3472727.3472807,
-author = {Meng, Jiayi and Kong, Jonny and Xu, Qiang and Hu, Y. Charlie},
+author = {Meng, Jiayi and Kong, Z. Jonny and Xu, Qiang and Hu, Y. Charlie},
 title = {Do Larger (More Accurate) Deep Neural Network Models Help in Edge-Assisted Augmented Reality?},
 year = {2021},
 isbn = {9781450386333},

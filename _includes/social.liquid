@@ -128,3 +128,6 @@
   </div>
   {% include scripts/wechatModal.liquid %}
 {% endif %}
+{% if site.cv %}
+  <a href="{{ site.baseurl }}/{{ site.cv }}" title="curriculum vitae"><i class="ai ai-cv"></i></a>
+{% endif %}

@@ -2,13 +2,11 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if true %}
+        <a class="navbar-brand title" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
-              <span class="font-weight-bold">
                 {{- site.first_name -}}
-              </span>
             {% endif %}
             {% if site.middle_name %}
               {{- site.middle_name -}}
@@ -24,6 +22,7 @@
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
+      {% comment %}
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
@@ -39,9 +38,11 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
+      {% endcomment %}
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
+      <div class="text-right">
         <ul class="navbar-nav ml-auto flex-nowrap">
+          {% comment %}
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
@@ -55,6 +56,7 @@
               {% endif %}
             </a>
           </li>
+          {% endcomment %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}

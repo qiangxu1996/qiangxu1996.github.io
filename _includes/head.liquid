@@ -3,12 +3,14 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
+{% comment %}
 <link
   rel="stylesheet"
   href="{{ site.third_party_libraries.mdb.url.css }}"
   integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
   crossorigin="anonymous"
 >
+{% endcomment %}
 
 {% if page.pretty_table %}
   <!-- Bootstrap Table -->
@@ -24,6 +26,7 @@
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+{% comment %}
 <link
   defer
   rel="stylesheet"
@@ -39,6 +42,7 @@
   media=""
   id="highlight_theme_light"
 >
+{% endcomment %}
 
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->

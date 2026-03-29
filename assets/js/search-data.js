@@ -407,6 +407,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-serve-on-the-tpc-of-mobisys-2026-please-consider-submitting-your-paper-cfp",
           title: 'I will serve on the TPC of MobiSys 2026. Please consider submitting your...',
           description: "",
+          section: "News",},{id: "news-core-accepted-to-mlsys-2026",
+          title: 'CORE accepted to MLSys 2026!',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -452,6 +455,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -482,10 +495,10 @@ ninja.data = [{
         },
       },{
         id: 'social-cv',
-        title: 'Cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("/assets/qiang-xu-cv.pdf", "_blank");
         },
       },{
       id: 'light-theme',

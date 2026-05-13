@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-13'
 papers:
   WX638_wAAAAJ:2osOgNQ5qMEC:
-    citations: 21
+    citations: 22
     title: Proactive {energy-aware} adaptive video streaming on mobile devices
     year: '2021'
   WX638_wAAAAJ:9yKSN-GCB0IC:
@@ -18,7 +18,7 @@ papers:
     title: Towards High-Accuracy and Resource-Efficient Edge-Assisted Augmented Reality
     year: '2024'
   WX638_wAAAAJ:UeHWp8X0CEIC:
-    citations: 32
+    citations: 33
     title: 'AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality'
     year: '2023'
   WX638_wAAAAJ:W7OEmFMy1HYC:
@@ -50,7 +50,7 @@ papers:
     title: 'EdgeSync: Efficient Edge-Assisted Video Analytics via Network Contention-Aware Scheduling'
     year: '2025'
   WX638_wAAAAJ:qjMakFHDy7sC:
-    citations: 78
+    citations: 79
     title: An in-depth study of uplink performance of 5G mmWave networks
     year: '2022'
   WX638_wAAAAJ:u-x6o8ySG0sC:

@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-01'
 papers:
   WX638_wAAAAJ:2osOgNQ5qMEC:
     citations: 23
@@ -30,7 +30,7 @@ papers:
     title: Optimizing edge-assisted augmented reality devices
     year: '2025'
   WX638_wAAAAJ:Y0pCki6q_DkC:
-    citations: 16
+    citations: 15
     title: 'ARISE: High-Capacity AR Offloading Inference Serving via Proactive Scheduling'
     year: '2024'
   WX638_wAAAAJ:YsMSGLbcyi4C:
@@ -50,7 +50,7 @@ papers:
     title: 'EdgeSync: Efficient Edge-Assisted Video Analytics via Network Contention-Aware Scheduling'
     year: '2025'
   WX638_wAAAAJ:qjMakFHDy7sC:
-    citations: 80
+    citations: 82
     title: An in-depth study of uplink performance of 5G mmWave networks
     year: '2022'
   WX638_wAAAAJ:u-x6o8ySG0sC:
@@ -62,7 +62,7 @@ papers:
     title: 'App Parameter Energy Profiling: Optimizing App Energy Drain by Finding Tunable App Parameters'
     year: '2020'
   WX638_wAAAAJ:ufrVoPGSRksC:
-    citations: 6
+    citations: 7
     title: Dissecting the Impact of Mobile DVFS Governors on LLM Inference Performance and Energy Efficiency
     year: '2025'
   WX638_wAAAAJ:zYLM7Y9cAGgC:

@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-03'
 papers:
   WX638_wAAAAJ:2osOgNQ5qMEC:
     citations: 23
@@ -18,7 +18,7 @@ papers:
     title: Towards High-Accuracy and Resource-Efficient Edge-Assisted Augmented Reality
     year: '2024'
   WX638_wAAAAJ:UeHWp8X0CEIC:
-    citations: 35
+    citations: 34
     title: 'AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality'
     year: '2023'
   WX638_wAAAAJ:W7OEmFMy1HYC:

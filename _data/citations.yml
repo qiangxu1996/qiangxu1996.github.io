@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-12'
 papers:
   WX638_wAAAAJ:2osOgNQ5qMEC:
     citations: 23
@@ -10,7 +10,7 @@ papers:
     title: 'NextG-up: a tool for measuring uplink performance of 5G networks'
     year: '2022'
   WX638_wAAAAJ:IjCSPb-OGe4C:
-    citations: 6
+    citations: 7
     title: Do Larger (More Accurate) Deep Neural Network Models Help in Edge-assisted Augmented Reality?
     year: '2021'
   WX638_wAAAAJ:Tyk-4Ss8FVUC:
@@ -18,7 +18,7 @@ papers:
     title: Towards High-Accuracy and Resource-Efficient Edge-Assisted Augmented Reality
     year: '2024'
   WX638_wAAAAJ:UeHWp8X0CEIC:
-    citations: 36
+    citations: 39
     title: 'AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality'
     year: '2023'
   WX638_wAAAAJ:W7OEmFMy1HYC:
@@ -34,7 +34,7 @@ papers:
     title: 'ARISE: High-Capacity AR Offloading Inference Serving via Proactive Scheduling'
     year: '2024'
   WX638_wAAAAJ:YsMSGLbcyi4C:
-    citations: 2
+    citations: 3
     title: '{PPipe}: Efficient Video Analytics Serving on Heterogeneous {GPU} Clusters via {Pool-Based} Pipeline Parallelism'
     year: '2025'
   WX638_wAAAAJ:_FxGoFyzp5QC:
@@ -50,7 +50,7 @@ papers:
     title: 'EdgeSync: Efficient Edge-Assisted Video Analytics via Network Contention-Aware Scheduling'
     year: '2025'
   WX638_wAAAAJ:qjMakFHDy7sC:
-    citations: 85
+    citations: 84
     title: An in-depth study of uplink performance of 5G mmWave networks
     year: '2022'
   WX638_wAAAAJ:u-x6o8ySG0sC:

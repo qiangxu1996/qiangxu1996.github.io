@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/qiangxu1996/al-folio-core.git
-  revision: 5b45168071f1c5be5e29fba06af8b4169bf9bea7
+  revision: f3d534b36b41441afcba72ae7b675be846195883
   branch: main
   specs:
     al_folio_core (1.0.16)
